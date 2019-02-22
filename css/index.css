@@ -1,0 +1,200 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: "微软雅黑";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+i {
+  font-weight: normal;
+  font-style: normal;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+a {
+  color: #666;
+  text-decoration: none;
+  outline: 0;
+}
+b,
+strong {
+  font-weight: normal;
+}
+input {
+  outline: none;
+  border: none;
+}
+textarea {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  list-style: none;
+  outline: none;
+  resize: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+html {
+  font-size: .1rem;
+  opacity: 0;
+}
+body {
+  background: #fff;
+}
+.video-course {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding-top: .47rem;
+}
+.video-course .content {
+  width: 6.78rem;
+  height: 100%;
+  margin: 0 auto;
+}
+.video-course .content h3 {
+  font-size: .44rem;
+  line-height: .44rem;
+  color: #040404;
+}
+.video-course .content .title {
+  line-height: .52rem;
+  margin-top: .34rem;
+}
+.video-course .content .title div {
+  width: .52rem;
+  height: .52rem;
+  background: url(../images/title.png);
+  background-size: 100% 100%;
+  margin-right: .13rem;
+}
+.video-course .content .title p {
+  font-size: .28rem;
+  color: #505c75;
+}
+.video-course .content .list {
+  width: 100%;
+  height: 100%;
+  margin-top: .37rem;
+}
+.video-course .content .list li {
+  width: 100%;
+  height: 1.64rem;
+  border-top: 1px solid #e9e9e9;
+}
+.video-course .content .list li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.video-course .content .list .text {
+  width: 4.44rem;
+  font-size: .32rem;
+  line-height: .44rem;
+  color: #000000;
+  margin-top: .16rem;
+}
+.video-course .content .list .img {
+  margin-top: .16rem;
+  width: 1.69rem;
+  height: 1.34rem;
+}
+.video-course .content .list .img img {
+  width: 100%;
+  height: 100%;
+}
